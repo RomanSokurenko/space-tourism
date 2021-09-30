@@ -50,12 +50,28 @@ button{
    color: inherit;
 }
 
+.title{
+font-family: 'spaceagecyrillic';
+padding: 100px 0;
+font-size: 48px;
+line-height: 48px;
+font-weight: 400;
+}
+
     
 .container{
    max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
   
+}
+
+.button{
+   text-transform: uppercase;
+   border: 1px solid #fff;
+   font-size: 18px;
+line-height: 21px;
+padding: 20px 45px;
 }
 
 .header{
@@ -166,6 +182,84 @@ padding: 15px 10px 16px;
 
 .about{
    background-image: url(../images/about-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
+.about__item{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding-bottom: 150px;
+}
 
+.about__item:nth-child(odd){
+   flex-direction: row-reverse;
+}
+
+.about__img{  
+   max-width: 100%;
+}
+
+.about__content{
+   width: 600px;
+}
+
+.about__content-title{
+   font-size: 30px;
+   line-height: 36px;font-weight: 700;
+   margin-bottom: 5px;
+}
+
+.about__content-subtitle{
+   font-size: 12px;
+   line-height: 14px;
+   color: #036CCA;
+   font-weight: 400;
+   margin-bottom: 30px;
+   text-transform: uppercase;
+}
+
+.aboutt__content-text{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px; 
+}
+
+.aboutt__content-text p {
+   width: 165px;
+}
+
+.about__table{
+margin-bottom: 50px;
+}
+.about__table-tr{
+border: 1px solid #fff;
+border-left: none;
+border-right: none;
+}
+.about__table-tr + .about__table-tr{
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+}
+
+.about__table-td{
+padding: 10px 30px 10px 0;
+}
+.about__table-td span {
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: block;
+}
+
+.about__table-caption{
+   caption-side: bottom;
+   text-align: left;
+   margin-top: 20px; 
+   font-size: 12px;
+   line-height: 14px;
+}
