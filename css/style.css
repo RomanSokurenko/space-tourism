@@ -329,3 +329,70 @@ font-size: 22px;
   margin-left: 0;
 } 
 
+.info{
+   background-image: url(../images/info-bg.jpg);
+   background-repeat: no-repeat;
+   background-position:top center;
+   background-size: cover;
+   padding-bottom: 100px;
+}
+
+.special-offer__iiner{
+   display: flex;
+   justify-content: space-between;
+}
+.special-offer__item{
+  width: 500px;
+  
+   
+}
+
+.special-offer__item__item-box{
+   padding: 40px 75px;
+   text-align: center;
+    border: 1px solid #fff;
+   margin-bottom: 25px;
+   min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.special-offer__item-text{
+   font-size: 24px;
+   line-height: 29px;
+   width: 236px;
+   margin: 0 auto;
+}
+
+.special-offer__item-text span{
+   color: #CB0E0E;
+}
+
+.special-offer-old-price{
+text-align: right;
+font-size: 14px;
+line-height: 17px;
+margin-bottom: 16px;
+position: relative;
+}
+
+.special-offer-old-price::before{
+   content: '';
+   position: absolute;
+   width: 68px;
+   height: 1px;
+   background-color: #CB0E0E;
+   top: 7px;
+   right: 0;
+   transform: rotate(15deg);
+}
+
+.special-offer-new-price{
+   font-size: 48px;
+   line-height: 57px;
+}
+
+.special-offer-btn{
+   width: 100%;
+}
