@@ -484,5 +484,19 @@ position: relative;
 }
 
 .slider__box-img{
-   
+   margin: 0 auto;
+}
+
+.slider__arrow{
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   z-index: 5;
+}
+
+.slider__arrow-left{
+   left: 75px;
+}
+.slider__arrow-right{
+   right: 75px;
 }
