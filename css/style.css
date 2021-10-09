@@ -503,6 +503,7 @@ position: relative;
 
 .contacts{
    background-color: #010203;
+   padding-bottom: 100px;
 }
 
 .contacts__inner{
@@ -513,7 +514,51 @@ position: relative;
    width: 500px;
 }
 
+.contacts__title{
+   padding-bottom: 46px;
+}
+
 .contacts__box-text{
    font-size: 24px;
    line-height: 29px;
+   margin-bottom: 80px;
+}
+.contacts__form-input{
+   background-color: #010203;
+   bottom: none;
+   border-bottom: 1px solid #fff;
+   margin-bottom: 30px;
+   color: #fff;
+   font-size: 14px;
+   line-height: 17px;
+   font-family: 'sf-pro-display';
+   padding: 20px 0;
+   width: 100%;
+}
+
+.contacts__form-input::placeholder{
+   color: #fff;
+   font-size: 14px;
+   line-height: 17px;
+   font-family: 'sf-pro-display';
+}
+
+.contacts__btn{
+   margin-top: 70px;
+   width: 100%;
+}
+
+.contacts__garantees{
+   width: 500px;
+}
+
+.contacts__garantees-text{
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.contacts__garantees-img{
+   display: flex;
+   justify-content: flex-end;
+   margin-left: auto;
 }
