@@ -701,6 +701,19 @@ left: 0;
 .header{
    background-position: center right ;
 }
+.title{
+   padding-left: 40px;
+   padding: 50px 0;
+}
+.aboutt__content-text{
+   font-size: 15px;
+}
+.about__table{
+   font-size: 15px;
+}
+.about__table-tr + .about__table-tr{
+   font-size: 30px;
+}
 }
 
 @media (min-width: 320px ){
@@ -731,7 +744,9 @@ left: 0;
 .header__inner{
    display: block;
 }
-
+.title{
+   padding-left: 40px;
+}
 
 
 
