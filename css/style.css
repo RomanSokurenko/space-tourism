@@ -647,14 +647,14 @@ left: 0;
 .menu-btn span::after{
    top: 10px;
 }
-
-@media (max-width: 1024px ){
+/* -------------------- */
+@media (max-width: 1440px ){
    .login{
       margin-right: 0;
    }
 }
 
-@media (max-width: 895px ){
+@media (max-width: 768px ){
 .header__top{
    padding-top: 30px; 
 }
@@ -703,6 +703,39 @@ left: 0;
 }
 }
 
-@media (max-width: 620px ){
+@media (min-width: 320px ){
+.header__title{
+   font-size: 30px;
+}
+.header__content{
+   text-align: center;
+}
+.header__title span {
+   font-size: 30px;
+}
+.header__text {
+   display: block;
+   font-size: 20px;
+   line-height: 45px;
+}
+.phone{
+   font-size: 20px;
+}
+.login__img{
+   width: 20px;
+   height: 20px;
+}
+.header__btn {
+   font-size: 20px;
+}
+.header__inner{
+   display: block;
+}
 
 }
+@media (max-width: 320px ){
+   .header__description{
+   display: none;
+}
+}
+
