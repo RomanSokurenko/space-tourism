@@ -689,6 +689,15 @@ left: 0;
    .special-offer-btn{
       margin-bottom: 30px;
    }
+   .contacts__inner{
+      display: block;
+   }
+   .contacts__box{
+      width: 100%;
+   }
+   .contacts__garantees{
+      margin: 0 auto;  
+   }
 }
 @media (max-width: 1024px){
 .login{
@@ -895,6 +904,15 @@ text-align: center;
 }
 .to-book{
    background-position: top left;
+}
+.contacts__garantees-img{
+   width: 100%;
+}
+.contacts__garantees{
+   width: 100%;
+}
+.services__title{
+   font-size: 35px;
 }
 }
  @media (max-width: 480px){
